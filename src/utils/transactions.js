@@ -12,7 +12,7 @@ import {
   NEW_ORDER_OWNER_INDEX,
   NEW_ORDER_V3_OPEN_ORDERS_INDEX,
   NEW_ORDER_V3_OWNER_INDEX,
-} from '@project-serum/serum';
+} from '@dvst/dvst';
 import { PublicKey } from '@solana/web3.js';
 import { TOKEN_PROGRAM_ID } from './tokens/instructions';
 

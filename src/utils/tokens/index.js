@@ -5,7 +5,7 @@ import {
   TransactionInstruction,
   SYSVAR_RENT_PUBKEY,
 } from '@solana/web3.js';
-import { TokenInstructions } from '@project-serum/serum';
+import { TokenInstructions } from '@dvst/dvst';
 import {
   assertOwner,
   closeAccount,
