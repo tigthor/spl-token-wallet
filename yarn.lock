@@ -1350,6 +1350,15 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@dvst/dvst@^0.13.34":
+  version "0.13.34"
+  resolved "https://registry.yarnpkg.com/@dvst/dvst/-/dvst-0.13.34.tgz#cd43a41f9453aa7962bc7b23eb397109efb6c35e"
+  integrity sha512-1iU1qdFDWkmGRtPEUAebfAnhgW28Zq/kP8FwsOgTYfAH0nNmU77Lx6l3shnt6r1L//pTZBw79MGl2JsJHmHisQ==
+  dependencies:
+    "@solana/web3.js" "^0.90.0"
+    bn.js "^5.1.2"
+    buffer-layout "^1.2.0"
+
 "@emotion/hash@^0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
@@ -1862,10 +1871,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@dvst/dvst@^0.13.33":
-  version "0.13.33"
-  resolved "https://registry.yarnpkg.com/@dvst/dvst/-/serum-0.13.33.tgz#03ce8219c1bb458f56c09dc8aa621d76538e70f5"
-  integrity sha512-g2ztZwhQAvhGE9u4/Md6uEFBpaOMV2Xa/H/FGhgTx3iBv2sikW5fheHRJ8Vy7yEA9ZhZCuzbCkw8Wz1fq82VAg==
+"@project-serum/serum@^0.13.33":
+  version "0.13.34"
+  resolved "https://registry.yarnpkg.com/@project-serum/serum/-/serum-0.13.34.tgz#c76477c27e14d975afa38b6c352b3abe92af6e52"
+  integrity sha512-vOeusQUW8nDS339eb5lNB/H6UvLxGTmFiJuWKG31krlJmkD7TFgDEFaDP6grgs2Yr1HrJABnFohM242MG5FV3Q==
   dependencies:
     "@solana/web3.js" "^0.90.0"
     bn.js "^5.1.2"
