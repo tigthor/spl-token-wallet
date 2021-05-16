@@ -47,7 +47,7 @@ class PriceStore {
         return;
       }
       if (this.cache[marketName] === undefined) {
-        fetch(`https://serum-api.bonfida.com/orderbooks/${marketName}`).then(
+        fetch(`https://jordan-serum-api.herokuapp.com/orderbooks/${marketName}`).then(
           (resp) => {
             resp.json().then((resp) => {
               if (resp.data.asks === null || resp.data.bids === null) {

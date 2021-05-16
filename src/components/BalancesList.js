@@ -593,7 +593,7 @@ function BalanceListItemDetails({
           {market && (
             <Typography variant="body2">
               <Link
-                href={`https://dex.projectserum.com/#/market/${market}`}
+                href={`https://dvst.netlify.app/#/market/${market}`}
                 target="_blank"
                 rel="noopener"
               >
